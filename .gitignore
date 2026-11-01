@@ -1,0 +1,11 @@
+.DS_Store
+*.kicad_prl
+*-backups/
+*.lck
+fp-info-cache
+_autosave-*
+\#auto_saved_files\#
+*-bak
+*.bak
+*-erc.rpt
+*-drc.rpt
