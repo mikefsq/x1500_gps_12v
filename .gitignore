@@ -9,3 +9,10 @@ _autosave-*
 *.bak
 *-erc.rpt
 *-drc.rpt
+
+# Go diagnostic binaries.
+/driver/bin/
+/driver/cmd/board/board
+/driver/cmd/bmp580/bmp580
+/driver/cmd/sht45/sht45
+/driver/cmd/neo/neo

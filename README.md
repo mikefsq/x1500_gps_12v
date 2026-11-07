@@ -10,6 +10,11 @@ remember that it does not stack like a regular pi-hat.
 
 ![Top of the board](board.png)
 
+## Driver software
+
+The [Go GPS/weather library and diagnostic tools](driver/README.md) are in
+`driver/`. They run on the Raspberry Pi and are licensed under AGPL-3.0-only.
+
 ## Raspberry Pi setup
 
 ```sh
@@ -68,4 +73,6 @@ sudo reboot
 
 ## License
 
-[CERN-OHL-S-2.0](LICENSE).
+Hardware: [CERN-OHL-S-2.0](LICENSE).
+
+Driver software: [AGPL-3.0-only](driver/LICENSE).
